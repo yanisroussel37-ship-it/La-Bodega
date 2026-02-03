@@ -1,0 +1,14 @@
+.img-font {
+    background-image: url(img/sarenne-laurent-salino-29-1200x644.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.textheader {
+    position: relative;
+    top: 250px;
+    left: 600px;
+    font-size: +px;
+}
