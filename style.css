@@ -12,3 +12,17 @@
     left: 600px;
     font-size: +px;
 }
+
+ion-icon {
+    font-size: 25px;
+    gap: 5px;
+
+}
+
+.btn-icon {
+    background-color: #FF6900;
+    text-decoration: none;
+    color: white;
+    padding: 18px;
+    border-radius: 20px;
+}
