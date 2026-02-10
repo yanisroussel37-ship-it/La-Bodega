@@ -3,12 +3,150 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 75vh;
 }
 
 .textheader {
     position: relative;
     top: 250px;
-    left: 600px;
-    font-size: +px;
+    left: 800 px;
+
+}
+
+.textheader {
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 3.8rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.hero h6 {
+    font-size: 2.0rem;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.btn {
+    outline: none;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #ff7a00;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.btn-primary:hover {
+    background-color: #e66e00;
+}
+
+.btn-secondary {
+    background-color: white;
+    color: #222;
+    font-size: 1.2rem;
+}
+
+.btn-secondary:hover {
+    background-color: #f2f2f2;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+
+.hero-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
+
+.hero {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background: transparent;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 800;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand img {
+    height: 45px;
+    width: auto;
+}
+
+.rubriques {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+
+.card {
+    background-color: #1d293d;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(29, 41, 61);
+    width: 350px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+
+}
+
+
+.card:hover {
+    transform: scale(1.05);
+
+}
+
+
+.card h2 {
+    margin-bottom: 15px;
+    font-size: 1.4em;
+    color: #fafafa;
+}
+
+.card p {
+    color: #fafafa;
+    line-heigh
 }
