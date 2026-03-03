@@ -8,9 +8,8 @@
 
 .textheader {
     position: relative;
-    top: 250px;
-    left: 800 px;
-
+    top: 300px;
+    left: 820 px;
 }
 
 .textheader {
@@ -108,7 +107,7 @@
 }
 
 .navbar-brand img {
-    height: 45px;
+    height: 60px;
     width: auto;
 }
 
@@ -123,30 +122,284 @@
 
 .card {
     background-color: #1d293d;
-    padding: 20px;
+    padding: 30px;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(29, 41, 61);
     width: 350px;
-    text-align: center;
+    text-align: left;
     transition: transform 0.3s ease;
     cursor: pointer;
 
 }
 
-
 .card:hover {
     transform: scale(1.05);
-
 }
-
 
 .card h2 {
     margin-bottom: 15px;
-    font-size: 1.4em;
+    font-size: 1.8em;
     color: #fafafa;
 }
 
 .card p {
     color: #fafafa;
-    line-heigh
+    font-size: 1.1em;
+}
+
+.t2 {
+    text-align: center;
+}
+
+.cta-section {
+    background-color: #1f2f46;
+    text-align: center;
+    padding: 80px 20px;
+    color: white;
+}
+
+.cta-small {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.cta-section h2 {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn-orange {
+    background-color: #ff6a00;
+    color: white;
+}
+
+.btn-orange:hover {
+    background-color: #e65c00;
+}
+
+.btn-light {
+    background-color: #e5e5e5;
+    color: #1f2f46;
+}
+
+.btn-light:hover {
+    background-color: #d6d6d6;
+}
+
+.footer {
+    background-color: #0f1c2e;
+    color: white;
+    padding: 60px 20px 20px 20px;
+    font-size: 12px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 250px;
+    padding: 7px;
+}
+
+.footer h3,
+.footer h4 {
+    margin-bottom: 15px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid #2c3e55;
+    margin-top: 40px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.navbar-toggler-icon {
+    filter: invert(100%);
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+@media (max-width: 768px) {
+    .mobile-hide {
+        display: none;
+    }
+}
+
+
+
+.reservation-form {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 12px;
+    padding: 30px 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.orange-text {
+    color: #ff6a00;
+}
+
+.form-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row label {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.required {
+    color: #ff6a00;
+}
+
+.two-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.two-columns>div {
+    flex: 1;
+}
+
+.three-columns {
+    display: flex;
+    gap: 20px;
+}
+
+.three-columns>div {
+    flex: 1;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #ff6a00;
+    outline: none;
+    background-color: white;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.btn-submit {
+    width: 100%;
+    background-color: #ff6a00;
+    border: none;
+    padding: 15px 0;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #e65c00;
+}
+
+.required-note {
+    font-size: 12px;
+    color: #999;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.help-section {
+    max-width: 600px;
+    margin: 20px auto 60px auto;
+    background-color: #1f2f46;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.help-icon {
+    color: #ff6a00;
+    font-size: 18px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.help-phone {
+    color: #ff6a00;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.help-phone:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+
+    .two-columns,
+    .three-columns {
+        flex-direction: column;
+    }
 }
