@@ -148,5 +148,14 @@
 
 .card p {
     color: #fafafa;
-    line-heigh
+    line-heigh;
+}
+
+.btn-icon {
+    text-decoration: none;
+    background-color: #ff7a00;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+
 }
